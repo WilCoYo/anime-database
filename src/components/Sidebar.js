@@ -13,7 +13,7 @@ function Sidebar({ topAnime }) {
                  target="_blank" 
                  key={anime.mal_id}
                  rel='noreferrer'>
-                 { anime.title }    
+                 { anime.title_english }    
              </a>
             ))}
            

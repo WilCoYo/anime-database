@@ -14,7 +14,7 @@ function AnimeCard({anime}) {
                     alt='Anime Cover Art'
                 />
             </figure>
-            <h3>{ anime.title }</h3>
+            <h3>{ anime.title_english || anime.title }</h3>
         </a>
     </article>
   )
