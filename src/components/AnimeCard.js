@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AnimeCard({anime}) {
+function AnimeCard({anime}) {  
   return (
     <article className='anime-card'>
         <a href={anime.url} 
@@ -15,6 +15,7 @@ function AnimeCard({anime}) {
                 />
             </figure>
             <h3>{ anime.title_english || anime.title }</h3>
+            <h4>{ anime.broadcast.string }</h4>
         </a>
     </article>
   )
