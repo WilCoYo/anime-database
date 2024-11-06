@@ -32,8 +32,6 @@ function App() {
 		SetAnimeList(temp.data);
 	}
 
- 
-  
 
   useEffect(() => {
     GetTopAnime();

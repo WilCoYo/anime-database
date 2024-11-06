@@ -11,7 +11,7 @@ function AnimeCard({anime}) {
                 <img
                     className='anime-image'
                     src={anime.images.jpg.image_url} 
-                    alt='Anime Image'
+                    alt='Anime Cover Art'
                 />
             </figure>
             <h3>{ anime.title }</h3>
