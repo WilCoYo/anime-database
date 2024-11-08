@@ -6,6 +6,33 @@
 	font-family: 'Fira Sans', sans-serif;
 }
 
+
+
+.main {
+	padding: 1rem;
+	min-height: 100vh;
+}
+
+button {
+	margin: 1rem 1rem 0.5rem;
+	font: inherit;
+	font-size: 2rem;
+	padding: 0.5em 1.5em;
+	cursor: pointer;
+	border-radius: 0.5rem;
+  }
+
+
+  .column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+  }
+
+
+
+
 header {
 	padding-top: 50px;
 	padding-bottom: 50px;
